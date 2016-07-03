@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Quote of the day</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <article>
+    <div class="container">
+      <div class="row">
+        <p class="two columns"></p>
+        <p class="eight columns">Some of my favourite quotes:</p>
+      </div>
+      <div>
+        <p class="two columns"></p>
+        <h1 id = "quote" class="eight columns"></h1>
+        <p class="two columns"></p>
+      </div>
+      <div class="row">
+        <p class="three columns"></p>
+        <p id = "auth" class="author six columns"></p>
+        <p class="three columns"></p>
+      </div>
+
+      <div class="row">
+        <p class="two columns"></p>
+        <button class="three columns button-primary" onclick=fetch()>Next</button>
+
+        <p class="three columns"></p>
+        <a href="https://twitter.com/share" class="twitter-share-button button-primary four columns" data-size="large" data-related="ShShsaci" data-hashtags="quoteOfTheDay">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
+
+    </article>
+
+    <script type="text/javascript" src="code.js"></script>
+  </body>
+  </html>
